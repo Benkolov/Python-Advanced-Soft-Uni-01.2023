@@ -18,13 +18,13 @@ print(
 )
 
 
-print(
-    sorting_cheeses(
-        Parmigiano=[165, 215],
-        Feta=[150, 515],
-        Brie=[150, 125]
-    )
-)
+# print(
+#     sorting_cheeses(
+#         Parmigiano=[165, 215],
+#         Feta=[150, 515],
+#         Brie=[150, 125]
+#     )
+# )
 
 
 
