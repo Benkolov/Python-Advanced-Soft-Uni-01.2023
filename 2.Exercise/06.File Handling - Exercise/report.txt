@@ -1,0 +1,13 @@
+.py
+---01.Even_Lines.py
+---02Line_Numbers.py
+---03.File_Manipulator.py
+---04.Directory_Traversal.py
+---directory_traversal.py
+---even_lines.py
+---file_manipulator.py
+---line_numbers.py
+.txt
+---output.txt
+---report.txt
+---text.txt
