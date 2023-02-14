@@ -1,3 +1,6 @@
+from icecream import ic
+
+
 # text = input()
 #
 # rev = reversed(text)

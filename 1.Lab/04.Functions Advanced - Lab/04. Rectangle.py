@@ -16,6 +16,3 @@ print(rectangle('2', 10))
 print(rectangle(5, 10))
 print(rectangle(3, 4))
 print(rectangle(7, 8))
-
-
-

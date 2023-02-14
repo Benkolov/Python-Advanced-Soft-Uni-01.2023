@@ -16,6 +16,7 @@ def process_pizzas(pizzas, employees):
         employees.pop()
     return total_pizzas_count
 
+
 pizzas = deque([int(x) for x in input().split(',') if int(x) > 0 and int(x) < 11])
 employees = [int(x) for x in input().split(',')]
 

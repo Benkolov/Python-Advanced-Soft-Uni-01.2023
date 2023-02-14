@@ -1,8 +1,8 @@
-from pyfiglet import figlet_format
+import pyfiglet
 
 
 def print_art(msg):
-    ascii_art = figlet_format(msg)
+    ascii_art = pyfiglet.figlet_format(msg)
     print(ascii_art)
 
 
