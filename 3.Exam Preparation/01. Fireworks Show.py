@@ -9,7 +9,7 @@ creates_firework = {
     'Willow Fireworks': 0,
     'Crossette Fireworks': 0,
 }
-
+is_firework_show = False
 while firework_effects and explosive_power:
     if firework_effects[0] <= 0:
         firework_effects.popleft()
@@ -33,11 +33,14 @@ while firework_effects and explosive_power:
         firework_effects.append(effects)
         explosive_power.append(power)
 
-if creates_firework['Palm Fireworks'] >= 3\
-        and creates_firework['Willow Fireworks'] >= 3\
-        and creates_firework['Crossette Fireworks'] >= 3:
-    print("Congrats! You made the perfect firework show!")
-else:
+    if creates_firework['Palm Fireworks'] >= 3\
+            and creates_firework['Willow Fireworks'] >= 3\
+            and creates_firework['Crossette Fireworks'] >= 3:
+        print("Congrats! You made the perfect firework show!")
+        is_firework_show = True
+        break
+
+if not is_firework_show:
     print("Sorry. You can't make the perfect firework show.")
 
 
