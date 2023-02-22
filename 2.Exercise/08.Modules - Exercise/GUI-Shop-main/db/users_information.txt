@@ -1,0 +1,2 @@
+{"first_name": "x", "last_name": "x", "username": "x", "password": "2d711642b726b04401627ca9fbac32f5c8530fb1903cc4db02258717921a4881"}
+{"first_name": "Logical", "last_name": "Person", "username": "mnogologichen", "password": "0eb5b3c648d093e8ef1c05385eb08246d38d3aa06a04febb25d10cf05a226d71"}
